@@ -1,0 +1,475 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Text:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", "DM Selif Text";
+}
+
+.container {
+  max-width: 1270px;
+  margin: 0 auto;
+}
+
+.container2 {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: #00486d;
+  height: 51px;
+  padding: 14px 0;
+}
+.box .box__text {
+  text-align: center;
+  font-size: 18px;
+  color: #99b6c5;
+}
+
+header {
+  height: 108px;
+}
+header .header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+header .header__inner .header__left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+header .header__inner .header__left .header__nav {
+  display: flex;
+  gap: 32px;
+}
+header .header__inner .header__left .header__nav .nav__link {
+  text-decoration: none;
+  font-size: 19px;
+  color: #00486d;
+}
+header .header__inner .header__cons {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+header .header__inner .header__cons .cons__number {
+  font-size: 17px;
+  color: #00486d;
+}
+header .header__inner .header__cons .cons__btn {
+  width: 234px;
+  height: 59px;
+  padding: 12px 24px;
+  font-size: 18px;
+  align-items: center;
+  color: white;
+  background-color: #00486d;
+  border: none;
+  border-radius: 5px;
+}
+
+.intro {
+  background-color: #e4ecf0;
+  position: relative;
+  z-index: 1;
+  height: 753px;
+}
+.intro .color {
+  position: absolute;
+  background-color: #00486d;
+  width: 576px;
+  height: 753px;
+  right: 0;
+  z-index: -1;
+}
+.intro .intro__inner {
+  display: flex;
+  gap: 80px;
+}
+.intro .intro__inner .intro__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.intro .intro__inner .intro__left .intro__title {
+  width: 394px;
+  height: 135px;
+  font-family: "DM Selif Text";
+  font-size: 55px;
+  line-height: 67.2px;
+  color: #00486d;
+  font-weight: 400;
+}
+.intro .intro__inner .intro__left .intro__text {
+  font-size: 24px;
+  line-height: 42px;
+  color: #00486d;
+  width: 563px;
+  height: 168px;
+}
+.intro .intro__inner .intro__left .intro__btn {
+  width: 234px;
+  height: 59px;
+  padding: 12px 24px;
+  font-size: 18px;
+  align-items: center;
+  color: white;
+  background-color: #00486d;
+  border: none;
+  border-radius: 5px;
+}
+.intro .intro__inner .intro__right {
+  position: relative;
+  top: 56px;
+  left: 46px;
+}
+
+.areas {
+  padding: 160px 0;
+}
+.areas .areas__inner {
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  padding: 0 40px;
+}
+.areas .areas__inner .areas__info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.areas .areas__inner .areas__info .areas__title {
+  font-size: 44px;
+  font-family: "DM Selif Text";
+  color: #00486d;
+}
+.areas .areas__inner .areas__info .areas__suptitle {
+  font-size: 24px;
+  line-height: 42px;
+  color: #00486d;
+  width: 605px;
+  height: 73px;
+}
+.areas .areas__inner .areas__cards {
+  display: flex;
+  gap: 40px;
+}
+.areas .areas__inner .areas__cards .card {
+  width: 397px;
+  height: 442px;
+  border: 1px solid #e4ecf0;
+  border-radius: 2px;
+  box-shadow: 0px 24px 24px 0px rgba(0, 72, 109, 0.2);
+  padding: 41px 36px 41px 33px;
+}
+.areas .areas__inner .areas__cards .card .card__icon {
+  padding-bottom: 40px;
+}
+.areas .areas__inner .areas__cards .card .card__title {
+  font-size: 22px;
+  color: #00486d;
+  padding-bottom: 12px;
+}
+.areas .areas__inner .areas__cards .card .card__suptitle {
+  font-size: 20px;
+  line-height: 35px;
+  color: #00486d;
+  padding-bottom: 36px;
+}
+.areas .areas__inner .areas__cards .card .card__suptitle2 {
+  font-size: 20px;
+  line-height: 35px;
+  color: #00486d;
+  padding-bottom: 71px;
+}
+.areas .areas__inner .areas__cards .card .btn {
+  display: flex;
+  gap: 8px;
+}
+.areas .areas__inner .areas__cards .card .btn .card__btn {
+  font-size: 19px;
+  color: #00486d;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.about__inner {
+  height: 682px;
+  background: url(./IMG/about.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about__inner .about__box {
+  width: 423.33px;
+  height: 491px;
+  padding: 58px 58px 72px 56px;
+  background: #00486d;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 846.46px;
+  top: 189.2px;
+}
+.about__inner .about__box .box__title {
+  font-family: "DM Selif Text";
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 42px;
+  color: #f2f6f7;
+  width: 220px;
+  height: 84px;
+}
+.about__inner .about__box .box__suptitle {
+  width: 309px;
+  height: 140px;
+  font-size: 19px;
+  line-height: 35px;
+  color: #f2f6f7;
+  margin-top: 23px;
+  margin-bottom: 60px;
+}
+.about__inner .about__box .box__btn {
+  width: 181px;
+  height: 59px;
+  padding: 12px 24px;
+  color: #00486d;
+  border: none;
+  background: #f2f6f7;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+.team__inner {
+  height: 620px;
+  display: flex;
+  align-items: center;
+}
+.team__inner .team__info {
+  display: flex;
+  flex-direction: column;
+  width: 838.19px;
+  height: 300px;
+  margin: 0;
+  margin-left: 300px;
+  margin-right: 100px;
+  padding: 66.8px 0;
+  gap: 10px;
+}
+.team__inner .team__info .team__title {
+  font-size: 32px;
+  font-family: "DM Selif Text";
+  line-height: 51.2px;
+  text-align: center;
+  width: 723px;
+  height: 103px;
+  color: #00486d;
+}
+.team__inner .team__info .team__suptitle {
+  font-size: 15px;
+  text-align: center;
+  color: #00486d;
+}
+
+.recent {
+  padding: 160.2px 45px 159.33px 45px;
+}
+.recent .recent__inner {
+  display: flex;
+  flex-direction: column;
+  padding: 0 40px;
+}
+.recent .recent__inner .recent__title {
+  font-family: "DM Selif Text";
+  font-size: 44px;
+  font-weight: 600;
+  color: #00486d;
+  padding-bottom: 60.2px;
+}
+.recent .recent__inner .rct__cards {
+  display: flex;
+  gap: 40px;
+}
+.recent .recent__inner .rct__cards .rct__card {
+  display: flex;
+  flex-direction: column;
+  width: 397px;
+  height: 510px;
+  box-shadow: 0px 24px 24px 0px rgba(0, 72, 109, 0.2);
+}
+.recent .recent__inner .rct__cards .rct__card .rct__info {
+  padding: 40px 68.66px 40px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.recent .recent__inner .rct__cards .rct__card .rct__info .rct__subtitle {
+  font-size: 15px;
+  color: #00486d;
+}
+.recent .recent__inner .rct__cards .rct__card .rct__info .rct__title {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #00486d;
+}
+.recent .recent__inner .rct__cards .rct__card .rct__info .rct__title2 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #00486d;
+  padding-bottom: 30px;
+}
+.recent .recent__inner .rct__cards .rct__card .rct__btn {
+  padding: 0 32px;
+  display: flex;
+  gap: 8px;
+}
+.recent .recent__inner .rct__cards .rct__card .rct__btn .card__btn {
+  width: 103px;
+  height: 35px;
+  font-size: 19px;
+  color: #00486d;
+  border: none;
+  background: transparent;
+}
+
+.pro {
+  padding: 160px 0;
+  background: #e4ecf0;
+}
+.pro .pro__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px;
+}
+.pro .pro__inner .pro__title {
+  font-size: 44px;
+  color: #00486d;
+  font-family: "DM Selif Text";
+}
+.pro .pro__inner .pro__suptitle {
+  font-size: 23px;
+  color: #00486d;
+  padding-bottom: 22px;
+}
+.pro .pro__inner .btn {
+  width: 234px;
+  height: 59px;
+  padding: 11px 24px 13px 24px;
+  color: white;
+  background: #00486d;
+  border: none;
+  border-radius: 4px;
+}
+
+footer {
+  padding: 119.67px 0 120.33px 0;
+  background: #00486d;
+}
+footer .footer__inner {
+  display: flex;
+  gap: 40px;
+}
+footer .footer__inner .footer__left {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 396.66px;
+  height: 420px;
+}
+footer .footer__inner .footer__left .footer__logo {
+  width: 130px;
+  height: 31px;
+}
+footer .footer__inner .footer__left .left__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer__inner .footer__left .left__info .left__text {
+  font-size: 19px;
+  color: #99b6c5;
+}
+footer .footer__inner .footer__left .left__info .left__text:nth-child(4) {
+  text-decoration: underline;
+}
+footer .footer__inner .footer__left .left__sci {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+footer .footer__inner .footer__left .left__sci .sci {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+footer .footer__inner .footer__left .left__sci .sci .sci__name {
+  font-size: 20px;
+  color: #99b6c5;
+}
+footer .footer__inner .footer__right {
+  display: flex;
+  flex-direction: column;
+  gap: 22.67px;
+  width: 396.66px;
+  height: 420px;
+}
+footer .footer__inner .footer__right .right__title {
+  width: 389px;
+  height: 110px;
+  font-size: 28px;
+  font-family: "DM Selif Text";
+  line-height: 36.4px;
+  color: #fff;
+}
+footer .footer__inner .footer__right .right__email {
+  display: flex;
+  padding: 8px 9px 8px 23px;
+  justify-content: space-between;
+  background: #99b6c5;
+  border: none;
+  border-radius: 2px;
+}
+footer .footer__inner .footer__right .right__email .email__text {
+  font-size: 19px;
+  padding: 10px 0;
+  color: #00486d;
+}
+
+.ftr__box {
+  background: #002b41;
+  padding: 7px 24px 9px 24px;
+  height: 51px;
+}
+.ftr__box .box__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.ftr__box .box__inner .box__left {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  padding-top: 10px;
+}
+.ftr__box .box__inner .box__left .left__text {
+  font-size: 14px;
+  color: #99b6c5;
+}
+.ftr__box .box__inner .box__right {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding-top: 10px;
+}
+.ftr__box .box__inner .box__right .right__text {
+  font-size: 14px;
+  color: #99b6c5;
+}/*# sourceMappingURL=style.css.map */

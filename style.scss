@@ -1,0 +1,461 @@
+@import 'basic';
+$color: #00486d;
+$bcolor: #e4ecf0;
+$family: 'DM Selif Text';
+
+.container {
+    max-width: 1270px;
+    margin: 0 auto;
+}
+.container2 {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+.box {
+    background-color: $color;
+    height: 51px;
+    padding: 14px 0;
+    .box__text {
+        text-align: center;
+        font-size: 18px;
+        color: #99b6c5;
+    }
+}
+header {
+    height: 108px;
+    .header__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 24px 0;
+            .header__left {
+                display: flex;
+                align-items: center;
+                gap: 40px;
+                .header__nav {
+                    display: flex;
+                    gap: 32px;
+                    .nav__link {
+                    text-decoration: none;
+                    font-size: 19px;
+                    color: $color;
+                    }
+                }
+            }
+            .header__cons {
+                display: flex;
+                gap: 32px;
+                align-items: center;
+                .cons__number {
+                    font-size: 17px;
+                    color: $color;
+                }
+                .cons__btn {
+                    width: 234px;
+                    height: 59px;
+                    padding: 12px 24px;
+                    font-size: 18px;
+                    align-items: center;
+                    color: white;
+                    background-color: $color;
+                    border: none;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+.intro {
+    background-color: $bcolor;
+    position: relative;
+    z-index: 1;
+    height: 753px;
+    .color {
+        position: absolute;
+        background-color: $color;
+        width: 576px;
+        height: 753px;
+        right: 0;
+        z-index: -1;
+    }
+    .intro__inner {
+        display: flex;
+        gap: 80px;
+        .intro__left {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 30px;
+            .intro__title {
+                width: 394px;
+                height: 135px;
+                font-family: $family;
+                font-size: 55px;
+                line-height: 67.2px;
+                color: $color;
+                font-weight: 400;
+            }
+            .intro__text {
+                font-size: 24px;
+                line-height: 42px;
+                color: $color;
+                width: 563px;
+                height: 168px;
+            }
+            .intro__btn {
+                width: 234px;
+                height: 59px;
+                padding: 12px 24px;
+                font-size: 18px;
+                align-items: center;
+                color: white;
+                background-color: $color;
+                border: none;
+                border-radius: 5px;
+            }
+        }
+        .intro__right {
+            position: relative;
+            top: 56px;
+            left: 46px;
+        }
+    }
+}
+.areas {
+    padding: 160px 0;
+    .areas__inner {
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        gap: 56px;
+        padding: 0 40px;
+        .areas__info {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            .areas__title {
+                font-size: 44px;
+                font-family: $family;
+                color: $color;
+            }
+            .areas__suptitle {
+                font-size: 24px;
+                line-height: 42px;
+                color: $color;
+                width: 605px;
+                height: 73px;
+            }
+        }
+        .areas__cards {
+            display: flex;
+            gap: 40px;
+            .card {
+                width: 397px;
+                height: 442px;
+                border: 1px solid #e4ecf0;
+                border-radius: 2px;
+                box-shadow: 0px 24px 24px 0px #00486D33;
+                padding: 41px 36px 41px 33px;
+                .card__icon {
+                    padding-bottom: 40px;
+                }
+                .card__title {
+                    font-size: 22px;
+                    color: $color;
+                    padding-bottom: 12px;
+                }
+                .card__suptitle {
+                    font-size: 20px;
+                    line-height: 35px;
+                    color: $color;
+                    padding-bottom: 36px;
+                }
+                .card__suptitle2 {
+                    font-size: 20px;
+                    line-height: 35px;
+                    color: $color;
+                    padding-bottom: 71px;
+                }
+                .btn {
+                    display: flex;
+                    gap: 8px;
+                    .card__btn {
+                        font-size: 19px;
+                        color: $color;
+                        border: none;
+                        background: transparent;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+.about__inner {
+    height: 682px;
+    background: url(./IMG/about.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .about__box {
+        width: 423.33px;
+        height: 491px;
+        padding: 58px 58px 72px 56px;
+        background: $color;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 846.46px;
+        top: 189.2px;
+        .box__title {
+            font-family: $family;
+            font-size: 35px;
+            font-weight: 600;
+            line-height: 42px;
+            color: #f2f6f7;
+            width: 220px;
+            height: 84px;
+        }
+        .box__suptitle {
+            width: 309px;
+            height: 140px;
+            font-size: 19px;
+            line-height: 35px;
+            color: #f2f6f7;
+            margin-top: 23px;
+            margin-bottom: 60px;
+        }
+        .box__btn {
+            width: 181px;
+            height: 59px;
+            padding: 12px 24px;
+            color: $color;
+            border: none;
+            background: #f2f6f7;
+            font-size: 18px;
+            border-radius: 4px;
+        }
+    }
+}
+.team__inner {
+    height: 620px;
+    display: flex;
+    align-items: center;
+    .team__info {
+        display: flex;
+        flex-direction: column;
+        width: 838.19px;
+        height: 300px;
+        margin: 0;
+        margin-left: 300px;
+        margin-right: 100px;
+        padding: 66.8px 0;
+        gap: 10px;
+        .team__title {
+            font-size: 32px;
+            font-family: $family;
+            line-height: 51.2px;
+            text-align: center;
+            width: 723px;
+            height: 103px;
+            color: $color;
+        }
+        .team__suptitle {
+            font-size: 15px;
+            text-align: center;
+            color: $color;
+        }
+    }
+}
+.recent {
+    padding: 160.2px 45px 159.33px 45px;
+    .recent__inner {
+        display: flex;
+        flex-direction: column;
+        padding: 0 40px;
+        .recent__title {
+            font-family: $family;
+            font-size: 44px;
+            font-weight: 600;
+            color: $color;
+            padding-bottom: 60.2px;
+        }
+        .rct__cards {
+            display: flex;
+            gap: 40px;
+            .rct__card {
+                display: flex;
+                flex-direction: column;
+                width: 397px;
+                height: 510px;
+                box-shadow: 0px 24px 24px 0px #00486D33;
+                .rct__info {
+                    padding: 40px 68.66px 40px 32px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 18px;
+                    .rct__subtitle {
+                        font-size: 15px;
+                        color: $color;
+                    }
+                    .rct__title {
+                        font-weight: 400;
+                        font-size: 22px;
+                        line-height: 33px;
+                        color: $color;
+                    }
+                    .rct__title2 {
+                        font-weight: 400;
+                        font-size: 22px;
+                        line-height: 33px;
+                        color: $color;
+                        padding-bottom: 30px;
+                    }
+                }
+                .rct__btn {
+                    padding: 0 32px;
+                    display: flex;
+                    gap: 8px;
+                    .card__btn {
+                        width: 103px;
+                        height: 35px;
+                        font-size: 19px;
+                        color: $color;
+                        border: none;
+                        background: transparent;
+                    }
+                }
+            }
+        }
+    }
+}
+.pro {
+    padding: 160px 0;
+    background: $bcolor;
+    .pro__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 19px;
+        .pro__title {
+            font-size: 44px;
+            color: $color;
+            font-family: $family;
+        }
+        .pro__suptitle {
+            font-size: 23px;
+            color: $color;
+            padding-bottom: 22px;
+        }
+        .btn {
+            width: 234px;
+            height: 59px;
+            padding: 11px 24px 13px 24px;
+            color: white;
+            background: $color;
+            border: none;
+            border-radius: 4px;
+        }
+    }
+}
+footer {
+    padding: 119.67px 0 120.33px 0;
+    background: $color;
+    .footer__inner {
+        display: flex;
+        gap: 40px;
+        .footer__left {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            width: 396.66px;
+            height: 420px;
+            .footer__logo {
+                width: 130px;
+                height: 31px;
+            }
+            .left__info {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                .left__text {
+                    font-size: 19px;
+                    color: #99b6c5;
+                }
+                .left__text:nth-child(4) {
+                    text-decoration: underline;
+                }
+            }
+            .left__sci {
+                display: flex;
+                flex-direction: column;
+                gap: 14px;
+                .sci {
+                    display: flex;
+                    gap: 8px;
+                    align-items: center;
+                    .sci__name {
+                        font-size: 20px;
+                        color: #99b6c5;
+                    }
+                }
+            }
+        }
+        .footer__right {
+            display: flex;
+            flex-direction: column;
+            gap: 22.67px;
+            width: 396.66px;
+            height: 420px;
+            .right__title {
+                width: 389px;
+                height: 110px;
+                font-size: 28px;
+                font-family: $family;
+                line-height: 36.4px;
+                color: #fff;
+            }
+            .right__email {
+                display: flex;
+                padding: 8px 9px 8px 23px;
+                justify-content: space-between;
+                background: #99b6c5;
+                border: none;
+                border-radius: 2px;
+                .email__text {
+                    font-size: 19px;
+                    padding: 10px 0;
+                    color: $color;
+                }
+            }
+        }
+    }
+}
+.ftr__box {
+    background: #002b41;
+    padding: 7px 24px 9px 24px;
+    height: 51px;
+    .box__inner {
+        display: flex;
+        justify-content: space-between;
+        .box__left {
+            display: flex;
+            gap: 6px;
+            align-items: center;
+            padding-top: 10px;
+            .left__text {
+                font-size: 14px;
+                color: #99b6c5;
+            }
+        }
+        .box__right {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            padding-top: 10px;
+            .right__text {
+                font-size: 14px;
+                color: #99b6c5;
+            }
+        }
+    }
+}
